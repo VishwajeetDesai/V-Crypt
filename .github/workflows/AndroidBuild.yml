@@ -26,6 +26,9 @@ jobs:
         with:
           java-version : '17'
 
+      - name: Make gradlew executable
+        run: chmod +x ./gradlew
+
       - name: Bulid Debug APK
         run: ./gradlew assembleDebug --stacktrace
 
