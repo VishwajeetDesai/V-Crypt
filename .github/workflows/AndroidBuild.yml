@@ -2,10 +2,10 @@ name: AndroidBuild
 
 on:
   push:
-    branches: [main]
+    branches: [vishu/release]
 
   pull_request:
-    branches: [main]
+    branches: [vishu/release]
 
 jobs:
   start:
@@ -30,7 +30,7 @@ jobs:
         run: chmod +x ./gradlew
 
       - name: Bulid Debug APK
-        run: ./gradlew assembleDebug --stacktrace
+        run: ./gradlew assembleRelease
 
       - name: Upload APK
         uses: actions/upload-artifact@v2
