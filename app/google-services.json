@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "77720625267",
+    "project_id": "vcrypt-d877a",
+    "storage_bucket": "vcrypt-d877a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77720625267:android:56ad4185195a5fa3e94a06",
+        "android_client_info": {
+          "package_name": "com.example.ads_pbl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "77720625267-sla0qkjkjiolkvkfnfdb6kqfhmkpramv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw2tYOleCOMzj3JTsxMMaBa1HDQtkex8g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "77720625267-sla0qkjkjiolkvkfnfdb6kqfhmkpramv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
